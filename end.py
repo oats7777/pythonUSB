@@ -1,0 +1,2 @@
+while
+print("asdf",end='')
