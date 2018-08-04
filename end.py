@@ -1,2 +1,2 @@
-while
-print("asdf",end='')
+while True:
+    print("asdf",end='')
