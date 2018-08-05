@@ -28,12 +28,12 @@ def get_read_drive():
     return rdrive, r_count, network_drive_list
 
 def file_upload(NETWORK_PATH,USB_PATH):
-    a = glob.glob(USB_PATH+'\\*')
+    a = glob.glob(USB_PATH+'*')
     b = a[:]
     i = 0
     while i < len(a):
         a[i] = a[i].replace(USB_PATH, NETWORK_PATH)
-        if a[i] == NETWORK_PATH+'\\System Volume Information':
+        if a[i] == NETWORK_PATH+'System Volume Information':
             del a[i]
             del b[i]
             continue
@@ -49,11 +49,11 @@ def file_upload(NETWORK_PATH,USB_PATH):
 
 USB,USB_COUNT,NETWORK=get_read_drive()
 if USB_COUNT == 1:
-   file_upload(str(NETWORK),str(USB))
+    file_upload(NETWORK[0],USB[0])
 elif USB_COUNT > 1:
     i=0
     while i < USB_COUNT:
-        file_upload(str(NETWORK)),USB[i]
+        file_upload(NETWORK[0],USB[i])
         i= i + 1
 else:
     print('USB가 없엉')
