@@ -28,22 +28,22 @@ def get_read_drive():
     return rdrive, r_count, network_drive_list
 
 def file_upload(NETWORK_PATH,USB_PATH):
-    a = glob.glob(USB_PATH+'*')
-    b = a[:]
+    network = glob.glob(USB_PATH+'*')
+    usb = network[:]
     i = 0
-    while i < len(a):
-        a[i] = a[i].replace(USB_PATH, NETWORK_PATH)
-        if a[i] == NETWORK_PATH+'System Volume Information':
-            del a[i]
-            del b[i]
+    while i < len(network):
+        network[i] = network[i].replace(USB_PATH, NETWORK_PATH)
+        if network[i] == NETWORK_PATH+'System Volume Information':
+            del network[i]
+            del usb[i]
             continue
         i = i + 1
     i = 0
-    while i < len(a):
+    while i < len(network):
         try:
-            shutil.copy(b[i], a[i])
+            shutil.copy(usb[i], network[i])
         except:
-            shutil.copytree(b[i], a[i])
+            shutil.copytree(usb[i], network[i])
         finally:
             i = i + 1
 
