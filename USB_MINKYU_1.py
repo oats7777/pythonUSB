@@ -31,7 +31,6 @@ def file_upload(NETWORK_PATH,USB_PATH):
     a = glob.glob(USB_PATH+'\\*')
     b = a[:]
     i = 0
-    Size_list = []
     while i < len(a):
         a[i] = a[i].replace(USB_PATH, NETWORK_PATH)
         if a[i] == NETWORK_PATH+'\\System Volume Information':
@@ -47,11 +46,14 @@ def file_upload(NETWORK_PATH,USB_PATH):
             shutil.copytree(b[i], a[i])
         finally:
             i = i + 1
-    for FileSIze in b:
-        Size_list.append(os.path.getsize(FileSIze))
-    return FileSIze
 
 USB,USB_COUNT,NETWORK=get_read_drive()
-File_Size=[]
 if USB_COUNT == 1:
-   File_Size=file_upload(str(NETWORK),str(USB))
+   file_upload(str(NETWORK),str(USB))
+elif USB_COUNT > 1:
+    i=0
+    while i < USB_COUNT:
+        file_upload(str(NETWORK)),USB[i]
+        i= i + 1
+else:
+    print('USB가 없엉')
