@@ -1,3 +1,4 @@
 import time
 import os
-time.gmtime(os.path.getatime('C:\\MailReceiver.exe'))
+a=os.path.getatime('C:\\')
+print(a)
