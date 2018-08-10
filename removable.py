@@ -10,6 +10,7 @@ class App(QWidget):
         self.get_drive()
         self.show()
 
+
     # 현재 인식된 드라이브의 목록을 문자열로 반환하는 함수
     def get_drive(self):
         drive = wa.GetLogicalDriveStrings()

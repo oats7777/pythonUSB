@@ -4,7 +4,6 @@ import os
 import glob
 import shutil
 
-
 def get_read_drive():
     # 현재 인식된 드라이브의 목록을 문자열로 반환하는 메소드
     drive = wa.GetLogicalDriveStrings()
