@@ -9,6 +9,9 @@
       <change beforePath="$PROJECT_DIR$/timeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/timeTest.py" afterDir="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
+=======
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
 =======
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
@@ -26,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/pythonUSB$getsizeTEST.coverage" NAME="getsizeTEST Coverage Results" MODIFIED="1533475191463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonUSB$USB_MINKYU_1.coverage" NAME="USB_MINKYU_1 Coverage Results" MODIFIED="1533488045828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
 =======
@@ -34,12 +38,17 @@
 =======
 =======
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
+=======
+>>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
     <SUITE FILE_PATH="coverage/pythonUSB$usb_connected_check.coverage" NAME="usb_connected_check Coverage Results" MODIFIED="1533282413237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonUSB$getsizeTEST.coverage" NAME="getsizeTEST Coverage Results" MODIFIED="1533475191463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonUSB$timeTest.coverage" NAME="timeTest Coverage Results" MODIFIED="1533558232034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonUSB$USB_MINKYU_1.coverage" NAME="USB_MINKYU_1 Coverage Results" MODIFIED="1533558126428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
+=======
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
 =======
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
@@ -133,8 +142,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="USB1.py" pinned="false" current-in-tab="false">
 =======
+=======
+>>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
 =======
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
 =======
@@ -265,7 +277,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/python/P_ER" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../공부/파이썬/GUI" />
+>>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../공부/파이썬/GUI" />
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
@@ -375,6 +391,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="timeTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="파이썬" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/timeTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="usb_connected_check" type="PythonConfigurationType" factoryName="Python" temporary="true">
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
       <module name="파이썬" />
@@ -458,10 +496,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <editor active="true" />
     <layout>
 =======
     <layout>
+=======
+    <layout>
+>>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
 =======
     <layout>
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
@@ -611,6 +653,7 @@
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/USB1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -656,6 +699,14 @@
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/USB_MINKYU_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1533557943772" expanded="true" signature="822:1164" ph="..." />
+>>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
 =======
     <entry file="file://$PROJECT_DIR$/USB_MINKYU_1.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -770,6 +821,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/USB_MINKYU_1.py" />
     <entry file="file://$USER_HOME$/Desktop/python/P_ER/removable.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -785,10 +837,13 @@
 =======
 =======
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
+=======
+>>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
     <entry file="file://$PROJECT_DIR$/timeTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
 =======
@@ -796,6 +851,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+>>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
+=======
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
 =======
 >>>>>>> 517a671697af65ea92e3cdcb833c28e6f151dae3
