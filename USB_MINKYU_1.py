@@ -27,7 +27,7 @@ def get_read_drive():
             rdrive.append(usb_drive_list[drv])
     return rdrive, r_count, network_drive_list
 
-def file_upload(NETWORK_PATH,USB_PATH):
+def DrivePATH(NETWORK_PATH,USB_PATH):
     network = glob.glob(USB_PATH+'*')
     usb = network[:]
     i = 0
@@ -38,6 +38,10 @@ def file_upload(NETWORK_PATH,USB_PATH):
             del usb[i]
             continue
         i = i + 1
+    return network,usb
+
+def file_upload(NETWORK_PATH,USB_PATH):
+    network,usb=DrivePATH(NETWORK_PATH,USB_PATH)
     i = 0
     while i < len(network):
         try:
@@ -49,7 +53,7 @@ def file_upload(NETWORK_PATH,USB_PATH):
 
 USB,USB_COUNT,NETWORK=get_read_drive()
 if USB_COUNT == 1:
-    file_upload(NETWORK[0],USB[0])
+    file_upload('Z:\\한민규\\USBCOPy\\',USB[0])
 elif USB_COUNT > 1:
     i=0
     while i < USB_COUNT:
