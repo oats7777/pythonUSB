@@ -50,23 +50,31 @@ def file_upload(NETWORK_PATH,USB_PATH):
         finally:
             i = i + 1
 
-def GetFileEditTime():
+def GetFileEditTime(USB):
     FileTimeList=[]
-    FIleTimeList
-USB, USB_COUNT, NETWORK = get_read_drive()
-print(USB)
-NETWORK_PATH=[]
-USB_PATH=[]
-if USB_COUNT == 1:
-    NETWORK_PATH, USB_PATH = DrivePATH(NETWORK[0]+"한민규\\USBPy\\", USB[0])
-    print("복사를 진행합니다")
-    file_upload(NETWORK_PATH,USB_PATH)
-    print("복사가 종료되었습니다")
-elif USB_COUNT > 1:
-    i=0
-    print("복사를 진행합니다")
-    while i < USB_COUNT:
-        file_upload(NETWORK[0],USB[i])
-        i= i + 1
-    print("복사가 종료되었습니다")
-
+    for U in USB:
+        FileTimeList.append(os.path.getmtime(U))
+    return FileTimeList
+while True:
+    USB, USB_COUNT, NETWORK = get_read_drive()
+    NETWORK_PATH=[]
+    USB_PATH=[]
+    if USB_COUNT == 1:
+        NETWORK_PATH, USB_PATH = DrivePATH(NETWORK[0]+"home\\", USB[0])
+        file_upload(NETWORK_PATH,USB_PATH)
+        Time=GetFileEditTime(USB_PATH)
+        i=0
+        while True:
+            if i is len(Time):
+                i=0
+            ResetTime=GetFileEditTime(USB_PATH)
+            if Time[i] < ResetTime[i]:
+                # 이젠 파일업로드가 문제다,,,,
+                os.remove(NETWORK_PATH[i])
+                try:
+                    shutil.copy(USB_PATH[i], NETWORK_PATH[i])
+                    Time[i]=ResetTime[i]
+                except:
+                    shutil.copytree(USB_PATH[i], NETWORK_PATH[i])
+                    Time[i] = ResetTime[i]
+            i = i + 1
