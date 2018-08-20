@@ -56,7 +56,10 @@ def GetFileEditTime(USB):
         FileTimeList.append(os.path.getmtime(U))
     return FileTimeList
 while True:
-    USB, USB_COUNT, NETWORK = get_read_drive()
+    try:
+        USB, USB_COUNT, NETWORK = get_read_drive()
+    except:
+        continue
     NETWORK_PATH=[]
     USB_PATH=[]
     if USB_COUNT == 1:
